@@ -1,0 +1,27 @@
+{
+  "name": "lower-case",
+  "version": "0.0.0",
+  "description": "Lower case a string",
+  "main": "lower-case.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/lower-case.git"
+  },
+  "keywords": [
+    "lowercase",
+    "case"
+  ],
+  "author": "Blake Embrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/lower-case/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/lower-case",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "istanbul": "~0.2.4"
+  }
+}

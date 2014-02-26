@@ -5,5 +5,5 @@
  * @return {String}
  */
 module.exports = function (string) {
-  return string.toLowerCase();
+  return String.prototype.toLowerCase.call(string);
 };

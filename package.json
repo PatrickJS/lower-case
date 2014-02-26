@@ -1,7 +1,7 @@
 {
   "name": "lower-case",
   "version": "0.0.0",
-  "description": "Lower case a string",
+  "description": "Lowercase a string",
   "main": "lower-case.js",
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
@@ -11,6 +11,8 @@
     "url": "git://github.com/blakeembrey/lower-case.git"
   },
   "keywords": [
+    "cases",
+    "lower",
     "lowercase",
     "case"
   ],

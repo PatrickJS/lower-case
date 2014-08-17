@@ -1,9 +1,11 @@
+var toLower = String.prototype.toLowerCase;
+
 /**
  * Lowercase a string.
  *
- * @param  {String} string
+ * @param  {String} str
  * @return {String}
  */
-module.exports = function (string) {
-  return String.prototype.toLowerCase.call(string);
+module.exports = function (str) {
+  return str == null ? '' : toLower.call(str);
 };

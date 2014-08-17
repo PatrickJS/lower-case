@@ -1,6 +1,6 @@
 {
   "name": "lower-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lowercase a string",
   "main": "lower-case.js",
   "scripts": {

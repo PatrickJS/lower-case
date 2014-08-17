@@ -5,7 +5,7 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Gittip][gittip-image]][gittip-url]
 
-Lower case a string.
+Lower case a string. Also handles non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will come out as an empty string.
 
 ## Installation
 
@@ -18,7 +18,10 @@ npm install lower-case --save
 ```js
 var lowerCase = require('lower-case');
 
+lowerCase(null);     //=> ""
 lowerCase('STRING'); //=> "string"
+
+upperCase({ toString: function () { return 'TEST'; } }); //=> "test"
 ```
 
 ## License
